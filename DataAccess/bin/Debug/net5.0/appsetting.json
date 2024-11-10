@@ -1,0 +1,9 @@
+{
+  "admin": {
+    "username": "admin123",
+    "password": "admin"
+  },
+  "ConnectionStrings": {
+    "MyCnn": "server=DESKTOP-QO80HR6\\SQLEXPRESS; database = FStoreDBAssignment;uid=sa;pwd=123;TrustServerCertificate=True;"
+  }
+}

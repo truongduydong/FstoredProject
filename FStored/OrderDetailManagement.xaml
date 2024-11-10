@@ -1,0 +1,35 @@
+﻿<Window x:Class="FStored.OrderDetailManagement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FStored"
+        mc:Ignorable="d"
+        Title="OrderDetailManagement" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,12,0,12">
+                <TextBox x:Name="txtOrderId" Width="39" IsEnabled="False" Text="{Binding Path=OrderId, Mode=OneWay}" DataContext="{Binding SelectedItem, ElementName=lsvOrderDetails}" Visibility="Hidden"></TextBox>
+                <TextBox x:Name="txtProductId" Width="39" IsEnabled="False" Text="{Binding Path=ProductId, Mode=OneWay}" DataContext="{Binding SelectedItem, ElementName=lsvOrderDetails}" Visibility="Hidden"></TextBox>
+            </StackPanel>
+            <ListView x:Name="lsvOrderDetails" Height="310">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Product Name" Width="125" DisplayMemberBinding="{Binding Product.ProductName}"/>
+                        <GridViewColumn Header="Unit Price" Width="230" DisplayMemberBinding="{Binding UnitPrice}"/>
+                        <GridViewColumn Header="Quantity" Width="120" DisplayMemberBinding="{Binding Quantity}"/>
+                        <GridViewColumn Header="Discount" Width="150" DisplayMemberBinding="{Binding Discount}"/>
+                        <GridViewColumn Header="Discount" Width="0" DisplayMemberBinding="{Binding OrderId}"/>
+                        <GridViewColumn Header="Discount" Width="0" DisplayMemberBinding="{Binding ProductId}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <StackPanel Orientation="Horizontal" Margin="0,8,0,0">
+                <Button x:Name="btnAdd" Content="Add" Width="150" Margin="45,0,0,0" Height="30" Click="btnAdd_Click"/>
+                <Button x:Name="btnUpdate" Content="Update" Width="150" Margin="25,0,0,0" Click="btnUpdate_Click"/>
+                <Button x:Name="btnDelete" Content="Delete" Width="150" Margin="25,0,0,0" Click="btnDelete_Click"/>
+                <Button x:Name="btnCancel" Content="Cancel" Width="150" Margin="25,0,0,0" Click="btnCancel_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

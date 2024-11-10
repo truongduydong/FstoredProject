@@ -1,0 +1,16 @@
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\bin\Debug\net5.0\appsetting.json
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\bin\Debug\net5.0\BusinessObject.deps.json
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.json
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\bin\Debug\net5.0\BusinessObject.runtimeconfig.dev.json
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\bin\Debug\net5.0\BusinessObject.dll
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\bin\Debug\net5.0\BusinessObject.pdb
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.AssemblyReference.cache
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\obj\Debug\net5.0\BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfoInputs.cache
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\obj\Debug\net5.0\BusinessObject.AssemblyInfo.cs
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\obj\Debug\net5.0\BusinessObject.csproj.CoreCompileInputs.cache
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\obj\Debug\net5.0\BusinessObject.dll
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\obj\Debug\net5.0\refint\BusinessObject.dll
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\obj\Debug\net5.0\BusinessObject.pdb
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\obj\Debug\net5.0\BusinessObject.genruntimeconfig.cache
+C:\FPT\PRN221\Final Project\PRN221_Assignment\BusinessObject\obj\Debug\net5.0\ref\BusinessObject.dll

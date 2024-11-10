@@ -1,0 +1,34 @@
+﻿<Window x:Class="FStored.ManageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FStored"
+        mc:Ignorable="d"
+        Title="ManageWindow"
+        Height="450"
+        Width="800">
+    <Grid>
+        <Button x:Name="btnMemberManagement"
+                Content="Member Management"
+                Margin="128,97,522,277"
+                Click="btnMemberManagement_Click" />
+        <Button x:Name="btnProductManagement"
+                Content="Product Management"
+                Margin="509,97,141,277"
+                Click="btnProductManagement_Click" />
+        <Button x:Name="btnOrder"
+                Content="Order"
+                Margin="509,97,141,277"
+                Click="btnOrder_Click" />
+        <Button x:Name="btnOrderManagement"
+                Content="Order Management"
+                Margin="128,253,522,121"
+                Click="btnOrderManagement_Click" />
+        <Button x:Name="btnCancel"
+                Content="Cancel"
+                Margin="509,253,141,121"
+                Click="btnCancel_Click" />
+
+    </Grid>
+</Window>

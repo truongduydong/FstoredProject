@@ -1,0 +1,32 @@
+﻿<Window x:Class="FStored.OrderDetailPopup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FStored"
+        mc:Ignorable="d"
+        Title="OrderDetailPopup" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Label x:Name="lbAdd_Update">Add/Update</Label>
+            <Label>Order Id:</Label>
+            <TextBox x:Name="txtOrderId"></TextBox>
+            <Label>Product Id:</Label>
+            <TextBox x:Name="txtProductId"></TextBox>
+            <Label>Unit Price:</Label>
+            <TextBox x:Name="txtUnitPrice"></TextBox>
+            <Label>Quantity:</Label>
+            <TextBox x:Name="txtQuantity"></TextBox>
+            <Label>Discount:</Label>
+            <TextBox x:Name="txtDiscount"></TextBox>
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="btnAdd_Update"
+                        Click="btnAdd_Update_Click"
+                        Margin="10,0,0,0">Add/Update</Button>
+                <Button x:Name="btnCancel"
+                        Click="btnCancel_Click"
+                        Margin="10,0,0,0">Cancel</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

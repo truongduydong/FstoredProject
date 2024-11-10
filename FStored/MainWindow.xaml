@@ -1,0 +1,29 @@
+﻿<Window x:Class="FStored.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FStored"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Background="White">
+            <Label Name="lbSignIn" FontSize="48" FontFamily="Arial" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center">Sign in</Label>
+            <DockPanel Background="Orange" LastChildFill="True" Margin="0 100 0 0" Width="500">
+                <Label DockPanel.Dock="Left" Name="lbUsername" FontSize="22" FontFamily="Arial" Width="120">Email: </Label>
+                <TextBox Name="txtUsername" TextWrapping="Wrap" Height="31" FontSize="22" FontFamily="Arial" Margin="12,0,0,0"/>
+            </DockPanel>
+                
+            <DockPanel Background="Orange" LastChildFill="True" Margin="0,24,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Center" Width="500">
+                <Label DockPanel.Dock="Left" Name="lbPassword" FontSize="22" FontFamily="Arial" Width="120">Password: </Label>
+                <PasswordBox Name="txtPassword" Height="31" FontSize="22" FontFamily="Arial" Margin="12,0,0,0" Cursor="No" AutomationProperties.IsColumnHeader="True"/>
+            </DockPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0 50 0 0">
+                <Button x:Name="btnSignIn" Width="200" Margin="125,0,150,0" FontSize="18" Click="btnSignIn_Click">Sign in</Button>
+                <Button x:Name="btnCancel" Width="200" Height="28" FontSize="18" Click="btnCancel_Click">Cancel</Button>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

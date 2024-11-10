@@ -1,0 +1,9 @@
+{
+  "admin": {
+    "username": "admin123",
+    "password": "admin"
+  },
+  "ConnectionStrings": {
+    "MyCnn": "server=DuyDong; database = FStoreDBAssignment;uid=sa;pwd=123;TrustServerCertificate=True;"
+  }
+}

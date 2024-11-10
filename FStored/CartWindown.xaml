@@ -1,0 +1,64 @@
+﻿<Window x:Class="FStored.CartWindown"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FStored"
+        mc:Ignorable="d"
+        Title="CartWindown" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <TextBox x:Name="txtSelectedId"
+                     Width="0"
+                     IsEnabled="False"
+                     Text="{Binding Path=Key.ProductId, Mode=OneWay}"
+                     DataContext="{Binding ElementName=lsvProducts, Path=SelectedItem}"
+                     Visibility="Hidden"></TextBox>
+
+            <ListView x:Name="lsvProducts"
+                      Height="290">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Id"
+                                        DisplayMemberBinding="{Binding Key.ProductId}"
+                                        Width="30" />
+                        <GridViewColumn Header="Name"
+                                        DisplayMemberBinding="{Binding Key.ProductName}"
+                                        Width="300" />
+                        <GridViewColumn Header="Weight"
+                                        DisplayMemberBinding="{Binding Key.Weight}"
+                                        Width="50" />
+                        <GridViewColumn Header="Price"
+                                        DisplayMemberBinding="{Binding Key.UnitPrice}"
+                                        Width="100" />
+
+                        <GridViewColumn Header="Quantity"
+                                        DisplayMemberBinding="{Binding Value}"
+                                        Width="auto" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <StackPanel Orientation="Horizontal"
+                        Margin="0,8,0,0">
+                <Button x:Name="btnUpdate"
+                        Content="Update"
+                        Width="150"
+                        Margin="45,0,0,0"
+                        Height="30"
+                        Click="btnUpdate_Click" />
+                <Button x:Name="btnPay"
+                        Content="Pay"
+                        Width="150"
+                        Margin="25,0,0,0"
+                        Click="btnPay_Click" />
+                <Button Content="Cancel"
+                        Width="150"
+                        Margin="25,0,0,0"
+                        Click="Button_Click" />
+            </StackPanel>
+
+        </StackPanel>
+        
+    </Grid>
+    
+</Window>

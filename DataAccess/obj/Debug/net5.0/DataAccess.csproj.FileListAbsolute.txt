@@ -1,0 +1,16 @@
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\bin\Debug\net5.0\appsetting.json
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\bin\Debug\net5.0\DataAccess.deps.json
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\bin\Debug\net5.0\DataAccess.dll
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\bin\Debug\net5.0\DataAccess.pdb
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\bin\Debug\net5.0\BusinessObject.dll
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\bin\Debug\net5.0\BusinessObject.pdb
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\obj\Debug\net5.0\DataAccess.csproj.AssemblyReference.cache
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\obj\Debug\net5.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfoInputs.cache
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\obj\Debug\net5.0\DataAccess.AssemblyInfo.cs
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\obj\Debug\net5.0\DataAccess.csproj.CopyComplete
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\obj\Debug\net5.0\DataAccess.dll
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\obj\Debug\net5.0\refint\DataAccess.dll
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\obj\Debug\net5.0\DataAccess.pdb
+C:\FPT\PRN221\Final Project\PRN221_Assignment\DataAccess\obj\Debug\net5.0\ref\DataAccess.dll
